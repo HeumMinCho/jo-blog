@@ -1,33 +1,50 @@
-import React from 'react';
+import React, {useState} from 'react';
+import Board from "./Board";
+import Main from "./Main";
+import {List} from "./component/List";
 
 
 export interface SideNavProps {
-  children?: JSX.Element[]
+  children?: JSX.Element
 }
 
 function SideNav(props: SideNavProps) {
   var menus = [
-    "게시판",
-    "방명록"
-  ]
+    {
+      name: "메인",
+      component: <Main></Main>
+    },
+    {
+      name: "게시판",
+      component: <List></List>
+    }]
+  var [content, setContent]= useState(<Main></Main>);
   return (
     <div className="SideNav" style={
-      {display: "flex",
-        height :"100vh"}
+      {
+        display: "flex",
+        height: "100vh"
+      }
     }>
       <div style={
         {
           width: "20%",
-          padding:"20px",
+          padding: "20px",
           borderRight: "1px solid #f5f5f7"
         }
       }>
-        {menus.map((menu) => {
-          return <div style={
-            {
-             marginBottom: "10px"
+        {menus.map((menu, index: number) => {
+          return <button
+            key={index}
+            onClick={() => {
+              setContent(menu.component)
+            }}
+            style={
+              {
+                marginBottom: "10px"
+              }
             }
-          }>{menu}</div>
+          >{menu.name}</button>
         })}
       </div>
       <div style={
@@ -37,6 +54,7 @@ function SideNav(props: SideNavProps) {
       }>
         <div>
           {props.children}
+          {content}
         </div>
       </div>
     </div>
