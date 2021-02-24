@@ -1,22 +1,22 @@
 {
   "files": {
     "main.css": "/jo-blog/static/css/main.ceac6349.chunk.css",
-    "main.js": "/jo-blog/static/js/main.01e9dc65.chunk.js",
-    "main.js.map": "/jo-blog/static/js/main.01e9dc65.chunk.js.map",
-    "runtime-main.js": "/jo-blog/static/js/runtime-main.8a3c3638.js",
-    "runtime-main.js.map": "/jo-blog/static/js/runtime-main.8a3c3638.js.map",
-    "static/js/2.6ae11df4.chunk.js": "/jo-blog/static/js/2.6ae11df4.chunk.js",
-    "static/js/2.6ae11df4.chunk.js.map": "/jo-blog/static/js/2.6ae11df4.chunk.js.map",
-    "static/js/3.4f50de33.chunk.js": "/jo-blog/static/js/3.4f50de33.chunk.js",
-    "static/js/3.4f50de33.chunk.js.map": "/jo-blog/static/js/3.4f50de33.chunk.js.map",
+    "main.js": "/jo-blog/static/js/main.2eb8dccd.chunk.js",
+    "main.js.map": "/jo-blog/static/js/main.2eb8dccd.chunk.js.map",
+    "runtime-main.js": "/jo-blog/static/js/runtime-main.65cae69a.js",
+    "runtime-main.js.map": "/jo-blog/static/js/runtime-main.65cae69a.js.map",
+    "static/js/2.cb6f8719.chunk.js": "/jo-blog/static/js/2.cb6f8719.chunk.js",
+    "static/js/2.cb6f8719.chunk.js.map": "/jo-blog/static/js/2.cb6f8719.chunk.js.map",
+    "static/js/3.7b4fa871.chunk.js": "/jo-blog/static/js/3.7b4fa871.chunk.js",
+    "static/js/3.7b4fa871.chunk.js.map": "/jo-blog/static/js/3.7b4fa871.chunk.js.map",
     "index.html": "/jo-blog/index.html",
     "static/css/main.ceac6349.chunk.css.map": "/jo-blog/static/css/main.ceac6349.chunk.css.map",
-    "static/js/2.6ae11df4.chunk.js.LICENSE.txt": "/jo-blog/static/js/2.6ae11df4.chunk.js.LICENSE.txt"
+    "static/js/2.cb6f8719.chunk.js.LICENSE.txt": "/jo-blog/static/js/2.cb6f8719.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.8a3c3638.js",
-    "static/js/2.6ae11df4.chunk.js",
+    "static/js/runtime-main.65cae69a.js",
+    "static/js/2.cb6f8719.chunk.js",
     "static/css/main.ceac6349.chunk.css",
-    "static/js/main.01e9dc65.chunk.js"
+    "static/js/main.2eb8dccd.chunk.js"
   ]
 }
